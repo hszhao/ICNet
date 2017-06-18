@@ -36,7 +36,7 @@ Based on [PSPNet](https://github.com/hszhao/PSPNet), this repository is build fo
 
        (31M, md5: 4f4dd9eecd465dd8de7e4cf88ba5d5d5; train on trainvalset for 90k)
    - Modify the related paths in 'eval_all.m':
-     - Mainly variables 'data_root' and 'eval_list', and your image list for evaluation should be similarity to that in folder 'evaluation/samplelist' if you use this evaluation code structure. 
+     - Mainly variables 'data_root' and 'eval_list', and your image list for evaluation should be similar to that in folder 'evaluation/samplelist' if you use this evaluation code structure. 
 
    ```shell
    cd evaluation
