@@ -36,6 +36,7 @@ Based on [PSPNet](https://github.com/hszhao/PSPNet), this repository is build fo
 
        (31M, md5: 4f4dd9eecd465dd8de7e4cf88ba5d5d5; train on trainvalset for 90k)
    - Modify the related paths in 'eval_all.m':
+     
      - Mainly variables 'data_root' and 'eval_list', and your image list for evaluation should be similar to that in folder 'evaluation/samplelist' if you use this evaluation code structure. 
 
    ```shell
@@ -75,15 +76,11 @@ Based on [PSPNet](https://github.com/hszhao/PSPNet), this repository is build fo
 
 If ICNet is useful for your research, please consider citing:
 
-    @article{zhao2017icnet,
-      author = {Hengshuang Zhao and
-                Xiaojuan Qi and
-                Xiaoyong Shen and
-                Jianping Shi and
-                Jiaya Jia},
-      title = {ICNet for Real-Time Semantic Segmentation on High-Resolution Images},
-      journal={arXiv preprint arXiv:1704.08545},
-      year = {2017}
+    @inproceedings{zhao2018icnet,
+      title={ICNet for Real-Time Semantic Segmentation on High-Resolution Images},
+      author={Zhao, Hengshuang and Qi, Xiaojuan and Shen, Xiaoyong and Shi, Jianping and Jia, Jiaya},
+      booktitle={ECCV},
+      year={2018}
     }
 ### Questions
 
