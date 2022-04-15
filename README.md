@@ -28,11 +28,11 @@ Based on [PSPNet](https://github.com/hszhao/PSPNet), this repository is build fo
 
    - Evaluation code is in folder 'evaluation'.
    - Download trained models and put them in folder 'evaluation/model':
-     - icnet_cityscapes_train_30k.caffemodel: [GoogleDrive](https://drive.google.com/open?id=0BzaU285cX7TCRXpXMnVIbXdfaW8) 
+     - icnet_cityscapes_train_30k.caffemodel: [GoogleDrive](https://drive.google.com/file/d/1z_2yifjYICczhZjBqCEhE1m6GYwJuljn/view?usp=sharing) 
 
        (31M, md5: c7038630c4b6c869afaaadd811bdb539; train on trainset for 30k)
 
-     - icnet_cityscapes_trainval_90k.caffemodel: [GoogleDrive](https://drive.google.com/open?id=0BzaU285cX7TCTFVpZWJINi1Iblk) 
+     - icnet_cityscapes_trainval_90k.caffemodel: [GoogleDrive](https://drive.google.com/file/d/19SRLIqLiKCgYnt305A8J0Pre9H-vuZ-u/view?usp=sharing) 
 
        (31M, md5: 4f4dd9eecd465dd8de7e4cf88ba5d5d5; train on trainvalset for 90k)
    - Modify the related paths in 'eval_all.m':
